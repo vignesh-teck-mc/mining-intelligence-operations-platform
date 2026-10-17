@@ -1,0 +1,143 @@
+﻿# Node.js dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Python generated files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Python AI backup files - keep them locally
+python-ai/*backup*
+python-ai/backupmain.py
+python-ai/main_before_*.py
+python-ai/safe_repair.py
+python-ai/cmd prpwshell.txt
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local development files
+.vscode/
+.idea/
+*.log
+
+# Java/Maven generated output
+**/target/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Frontend backup files
+frontend/src/*.backup*
+frontend/src/*_backup*
+
+# Local frontend backup directories
+frontend-backup-*/
+frontend-backup-before-redesign/
+
+# Frontend dependencies and generated files
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+frontend/coverage/
+frontend/analytics-backup-*/
+frontend/*.zip
+
+# Frontend local scripts and backups
+frontend/patch_analytics.py
+
+# Python development scripts and personal documents
+python-ai/*backup*
+python-ai/*backup*.txt
+python-ai/*backup*.py
+python-ai/apply_two_fixes.py
+python-ai/fix_patch_script.py
+python-ai/patch_*.py
+python-ai/safe_repair.py
+python-ai/cmd prpwshell.txt
+python-ai/*coverletter*.txt
+python-ai/VIGNESH V.txt
+
+# Local frontend backups
+frontend-backup-*/
+frontend-backup-before-redesign/
+frontend-backup-before-redesign
+
+
+# Deployment secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+**/secrets/
+**/*credentials*
+**/*secret*
+
+# Python virtual environments and caches
+python-ai/.venv/
+python-ai/venv/
+python-ai/__pycache__/
+python-ai/*.pyc
+
+# Python development backups and patch scripts
+python-ai/*backup*
+python-ai/*backup*.txt
+python-ai/*backup*.py
+python-ai/main_before_*.py
+python-ai/main_backup*.py
+python-ai/main_repeated_repair_backup.py
+python-ai/patch_*.py
+python-ai/apply_two_fixes.py
+python-ai/fix_patch_script.py
+python-ai/safe_repair.py
+python-ai/cmd prpwshell.txt
+
+# Personal documents
+python-ai/VIGNESH V.txt
+python-ai/VIGNESH V coverletter ford.txt
+python-ai/*coverletter*.txt
+
+# Frontend backups
+frontend-backup-*/
+frontend-backup-before-redesign/
+
+# Local configuration backups
+**/application.properties.backup
+
+# Local configuration backups
+**/application.properties.backup
+
+# Additional project backups and temporary versions
+**/*.bak
+**/*.bak_*
+**/*.bak-*
+**/*.backup*
+**/*_backup*
+**/*-backup*
+**/*.before-*
+**/*.before_*
+**/*.bg-backup
+**/*.repair-backup
+**/*.loading-backup
+**/*.code-workspace
+
+# Temporary configuration copies
+**/pom.xml.before-*
+**/SecurityConfig.java.before-*
+**/AuthController.java.before-*
+
+# Unexpected duplicate Python file in Java project
+/Mines-Equipment-Stoppage-Analysis/main.py
